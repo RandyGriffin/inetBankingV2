@@ -1,2 +1,2 @@
-cd C:\Users\admin\myworkspace\inetBankingV1
+cd C:\Users\justs\Downloads\inetbanking
 mvn clean install

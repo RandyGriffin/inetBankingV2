@@ -37,7 +37,9 @@ public class TC_DeleteCustomerTest_005 extends BaseClass {
 
         deletecust.deletesubmit();
 
-        Thread.sleep(2000);
+        driver.switchTo().alert().accept();
+
+        Thread.sleep(8000);
 
     }
 }

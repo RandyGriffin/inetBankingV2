@@ -45,4 +45,6 @@ public class DeleteCustomerPage {
         btnSubmit.click();
     }
 
+
+
 }
