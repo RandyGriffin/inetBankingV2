@@ -57,6 +57,7 @@ public class BaseClass {
 		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get(baseURL);
+		driver.manage().window().maximize();
 	}
 	
 	@AfterClass
